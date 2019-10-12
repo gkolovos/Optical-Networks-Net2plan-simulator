@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<network description="" name="" currentPlotNodeLayout="" cache_definedPlotNodeLayouts="" version="6" nextElementId="88">
+	<node id="2" description="" name="n0" xCoord="100.0" yCoord="-34.0" mapLayout2NodeXYPositionMap=" 100.0 -34.0" population="1000.0" isUp="true" layersWithIconsDefined="">
+		<attribute key="level" value="1"/>
+	</node>
+	<node id="3" description="" name="n1" xCoord="510.0" yCoord="-34.0" mapLayout2NodeXYPositionMap=" 510.0 -34.0" population="1000.0" isUp="true" layersWithIconsDefined="">
+		<attribute key="level" value="1"/>
+	</node>
+	<node id="4" description="" name="n2" xCoord="100.0" yCoord="-200.0" mapLayout2NodeXYPositionMap=" 100.0 -200.0" population="5000.0" isUp="true" layersWithIconsDefined="">
+		<attribute key="level" value="1"/>
+	</node>
+	<node id="5" description="" name="n3" xCoord="510.0" yCoord="-200.0" mapLayout2NodeXYPositionMap=" 510.0 -200.0" population="5000.0" isUp="true" layersWithIconsDefined="">
+		<attribute key="level" value="1"/>
+	</node>
+	<layer id="1" description="" name="Layer 0" isDefaultLayer="true" linkCapacityUnitsName="Gbps" demandTrafficUnitsName="Gbps">
+		<link id="32" description="" name="Link-0" originNodeId="2" destinationNodeId="3" capacity="100.0" lengthInKm="410.0" bidirectionalPairId="33" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="33" description="" name="Link-1" originNodeId="3" destinationNodeId="2" capacity="100.0" lengthInKm="410.0" bidirectionalPairId="32" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="34" description="" name="Link-2" originNodeId="2" destinationNodeId="4" capacity="100.0" lengthInKm="166.0" bidirectionalPairId="35" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="35" description="" name="Link-3" originNodeId="4" destinationNodeId="2" capacity="100.0" lengthInKm="166.0" bidirectionalPairId="34" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="40" description="" name="Link-8" originNodeId="3" destinationNodeId="5" capacity="100.0" lengthInKm="166.0" bidirectionalPairId="41" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="41" description="" name="Link-9" originNodeId="5" destinationNodeId="3" capacity="100.0" lengthInKm="166.0" bidirectionalPairId="40" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="42" description="" name="Link-10" originNodeId="4" destinationNodeId="5" capacity="100.0" lengthInKm="410.0" bidirectionalPairId="43" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="43" description="" name="Link-11" originNodeId="5" destinationNodeId="4" capacity="100.0" lengthInKm="410.0" bidirectionalPairId="42" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<demand id="64" description="" name="Demand-0" ingressNodeId="2" egressNodeId="3" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="65" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="65" description="" name="Demand-1" ingressNodeId="3" egressNodeId="2" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="64" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="66" description="" name="Demand-2" ingressNodeId="2" egressNodeId="4" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="67" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="67" description="" name="Demand-3" ingressNodeId="4" egressNodeId="2" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="66" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="68" description="" name="Demand-4" ingressNodeId="2" egressNodeId="5" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="69" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="69" description="" name="Demand-5" ingressNodeId="5" egressNodeId="2" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="68" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="70" description="" name="Demand-6" ingressNodeId="3" egressNodeId="4" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="71" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="71" description="" name="Demand-7" ingressNodeId="4" egressNodeId="3" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="70" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="72" description="" name="Demand-8" ingressNodeId="3" egressNodeId="5" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="73" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="73" description="" name="Demand-9" ingressNodeId="5" egressNodeId="3" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="72" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="74" description="" name="Demand-10" ingressNodeId="4" egressNodeId="5" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="75" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<demand id="75" description="" name="Demand-11" ingressNodeId="5" egressNodeId="4" offeredTraffic="10.0" intendedRecoveryType="NOTSPECIFIED" routingType="SOURCE_ROUTING" bidirectionalPairId="74" maximumAcceptableE2EWorstCaseLatencyInMs="-1.0" offeredTrafficGrowthFactorPerPeriodZeroIsNoGrowth="0.0" monitoredOrForecastedTraffics="" qosType="">
+		</demand>
+		<sourceRouting>
+			<route id="76" description="" name="Route-0" demandId="64" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="32" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="32" backupRoutes="">
+			</route>
+			<route id="77" description="" name="Route-1" demandId="65" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="33" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="33" backupRoutes="">
+			</route>
+			<route id="78" description="" name="Route-2" demandId="66" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="34" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="34" backupRoutes="">
+			</route>
+			<route id="79" description="" name="Route-3" demandId="67" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="35" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="35" backupRoutes="">
+			</route>
+			<route id="80" description="" name="Route-4" demandId="68" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0 10.0" currentPath="32 40" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0 10.0" initialStatePath="32 40" backupRoutes="">
+			</route>
+			<route id="81" description="" name="Route-5" demandId="69" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0 10.0" currentPath="41 33" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0 10.0" initialStatePath="41 33" backupRoutes="">
+			</route>
+			<route id="82" description="" name="Route-6" demandId="70" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0 10.0" currentPath="33 34" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0 10.0" initialStatePath="33 34" backupRoutes="">
+			</route>
+			<route id="83" description="" name="Route-7" demandId="71" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0 10.0" currentPath="35 32" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0 10.0" initialStatePath="35 32" backupRoutes="">
+			</route>
+			<route id="84" description="" name="Route-8" demandId="72" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="40" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="40" backupRoutes="">
+			</route>
+			<route id="85" description="" name="Route-9" demandId="73" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="41" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="41" backupRoutes="">
+			</route>
+			<route id="86" description="" name="Route-10" demandId="74" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="42" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="42" backupRoutes="">
+			</route>
+			<route id="87" description="" name="Route-11" demandId="75" currentCarriedTrafficIfNotFailing="10.0" currentLinksAndResourcesOccupationIfNotFailing="10.0" currentPath="43" bidirectionalPairId="-1" initialStateCarriedTrafficIfNotFailing="10.0" initialStateOccupationIfNotFailing="10.0" initialStatePath="43" backupRoutes="">
+			</route>
+		</sourceRouting>
+		<hopByHopRouting>
+		</hopByHopRouting>
+	</layer>
+</network>
