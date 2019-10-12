@@ -49,14 +49,18 @@ number of hops.
 2. Question: Show for each request / move which is the primary and most backup path.
 
 Step 3: Implement hop-by hop IP routing
+
 • Routes tab. Remove all calculated routes
+
 • Demands tab. Change traffic from "Populations" to 1000, 1000, 5000 and 5000 source-routing "to" Populations "to 1000, 1000, 5000 and 5000 hop-by-hop". Applications
 is blocked because no routing routes have been calculated.
+
 • Forwading rules tab. Add forward rules from each node to each
 node. Select automatic calculation with “Populations” with 1000, 1000, 5000 and 5000 ECMP forwarding rules from IGP link
 weights ”. This option creates the rules for forwarding packets to each node
 as a typical IP network that implements the OSPF algorithm. Check that traffic
 it is routed (Demands tab).
+
 3. Question: For each node, indicate the traffic paths.
 
 Step 4: Implement multicast on IP networks.
@@ -64,11 +68,15 @@ Forwading tab: Remove all routing rules that have been calculated.
 Multicast demands tab: Add a "Populations" with values ​​of 1000, 1000, 5000 and 5000 broadcast "request source each node
 network. Set the traffic of each multicast request equal to 0.5 units. See that the applications are
 blocked because you require the calculation of "Populations" routing routes with values ​​of 1000, 1000, 5000 and 5000 multicast trees. "
+
 Question: How many applications were calculated in total?
+
 Multicast trees tab: Select the route calculation using mulitcast-trees
 minimize the average value of the links you use for each request. Check that all
 applications are now being routed.
+
 4. Question: show the calculated routes for each multicast request.
+
 Step 5: Implement Route / Node Group Protection on IP Networks.
 The protection of a group of paths and nodes is intended to protect them when from
 these fail at the same time. You require the creation of a group
@@ -78,35 +86,42 @@ bidirectional linking is a group that one way if its off
 traffic will automatically go out the other). Select for each link that goes out
 operating once every 8760 hours (once a year, MTTF parameter) and needed by
 Average 12 hours to repair (MTTR parameter)
+
 5. Question: How many protection groups have been created?
 
 Step 6: Aggregated Network Elements.
+
 Layer tab. You can see aggregated data such as the number of network nodes,
 number of links, requests / traffic etc. Selecting the general tab
 Question: What is the average of hops, distance and latency in the network? Which n
 price of “Populations” with 1000, 1000, 5000 and 5000 network congestion values ​​”?
+
 6. Question: What should be the capacity of the links for the value of the network?
 congestion to become “Populations” with values ​​of 1000, 1000, 5000 and 5000 1 ”?
 
 
 Part 2:
+
 Step 1: From the tab “Populations” with values ​​of 1000, 1000, 5000 and 5000 Offline Algorithms ”select the algorithm
 'Offline_ipOverWdm_routingSpectrumAndModulationAssignmentHeuristicNotGrooming
 (com.net2lan.exampes.general.offline).
 
 7. Question: What optimizes this algorithm? What are its parameters? What a cost
 calculate for the network topology you have calculated;
+
 8. Question: Reduce the numFrequencySlotserFiber parameter (in essence it is the number of
 wavelengths per link / fiber in 1. Run the algorithm again. What do you observe?
 Are all applications routed? and if not which ones go and which ones don't.
 Increase the numFrequencySlotserFiber parameter by one to 7 and fill them
 tables below, for the capacity of links and nodes both at the IP level and
 at Layer 0 (represents the optical WDM layer.
+
 9. Question: What is the minimum number of wavelengths to maximize use?
 on some (any) 75% coupling;
 
 Step 2: Add another node as shown below and repeat it
 previous step.
+
 10. Question: What is the minimum number?
 wavelengths to allow all
 applications? Why is the cost calculated by
@@ -120,9 +135,11 @@ Part 3:
 Open the “Populations” web topology with values ​​1000, 1000, 5000 and 5000 example7nodes_ipOverWDM.n2p ”and enable it
 "Populations" with values ​​of 1000, 1000, 5000 and 5000 sites "(the nodes are located in the correct geographical location. For the network that has
 implemented and the added parameters describe and analyze:
+
 • traffic requests between all nodes (traffic matrix)
+
 • For the "Populations" node with values ​​of 1000, 1000, 5000 and 5000 Zaragoza "give the following details of all links to them
 other nodes:
-Βαθ The degree of use and movement of each link at the IP level
-Διαθέσι The available capacity, the capacity used, the traffic that
+The degree of use and movement of each link at the IP level
+The available capacity, the capacity used, the traffic that
 the degree of use of each link is also transferred to the visual plane.
