@@ -16,3 +16,4 @@ Part One:
 Step 1: Implement Network Topology and Add Network Traffic.
 From the menu, select Offline network design and implement the network below. All the
 links must be bidirectional.
+![bhma 1](https://user-images.githubusercontent.com/50678563/66704961-a50c4e80-ed29-11e9-9e08-6a774f0d2c34.png)
