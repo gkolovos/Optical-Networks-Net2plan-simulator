@@ -21,16 +21,20 @@ links must be bidirectional.
 From the 2nd window that you open, and the View / edit network design tab, select the Network tab
 and set as Link Capacity units and Demand Traffic units 'Gbps'. Select the Layer tab 0 tab and
 from the tab below make the requested imports.
+
 • Nodes tab. Set node names to n0, n1, n2, n3. Right click to add two news items
 attributes at each node: "Populations" with values ​​of 1000, 1000, 5000 and 5000 Populations "with values ​​of 1000, 1000, 5000 and 5000
 respectively for each node and “Populations” with values ​​of 1000, 1000, 5000 and 5000 level ”= 1 for all nodes.
+
 • links tab. Set the capacity of all links to 100 units.
 Use the option to automatically select the length of the bursts, according to
 the euclidean distance between links and nodes.
+
 • Demands tab. Add "Populations" with values ​​of 1000, 1000, 5000 and 5000 traffic "for each input-output node
 routing "Populations" with 1000, 1000, 5000 and 5000 source routing values ​​". Set the load to 10 units. You notice that movement
 are "Populations" with values ​​of 1000, 1000, 5000 and 5000 blocked "marked in red. This is because it does not exist yet
 routing algorithm to calculate routes.
+
 • Routes tab. Add a routing per demand route via the shortest
 path based on the number of nodes. Check that you are currently running traffic (at
 tab demand blocked traffic is in green).
