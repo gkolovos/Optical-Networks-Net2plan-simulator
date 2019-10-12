@@ -89,3 +89,36 @@ Part 2:
 Step 1: From the tab “Populations” with values ​​of 1000, 1000, 5000 and 5000 Offline Algorithms ”select the algorithm
 'Offline_ipOverWdm_routingSpectrumAndModulationAssignmentHeuristicNotGrooming
 (com.net2lan.exampes.general.offline).
+
+7. Question: What optimizes this algorithm? What are its parameters? What a cost
+calculate for the network topology you have calculated;
+8. Question: Reduce the numFrequencySlotserFiber parameter (in essence it is the number of
+wavelengths per link / fiber in 1. Run the algorithm again. What do you observe?
+Are all applications routed? and if not which ones go and which ones don't.
+Increase the numFrequencySlotserFiber parameter by one to 7 and fill them
+tables below, for the capacity of links and nodes both at the IP level and
+at Layer 0 (represents the optical WDM layer.
+9. Question: What is the minimum number of wavelengths to maximize use?
+on some (any) 75% coupling;
+
+Step 2: Add another node as shown below and repeat it
+previous step.
+10. Question: What is the minimum number?
+wavelengths to allow all
+applications? Why is the cost calculated by
+algorithm remains the same as its
+previous step; Who the minimum
+number of wavelengths to maximum degree
+use of any (any) 75% coupling;
+
+
+Part 3:
+Open the “Populations” web topology with values ​​1000, 1000, 5000 and 5000 example7nodes_ipOverWDM.n2p ”and enable it
+"Populations" with values ​​of 1000, 1000, 5000 and 5000 sites "(the nodes are located in the correct geographical location. For the network that has
+implemented and the added parameters describe and analyze:
+• traffic requests between all nodes (traffic matrix)
+• For the "Populations" node with values ​​of 1000, 1000, 5000 and 5000 Zaragoza "give the following details of all links to them
+other nodes:
+Βαθ The degree of use and movement of each link at the IP level
+Διαθέσι The available capacity, the capacity used, the traffic that
+the degree of use of each link is also transferred to the visual plane.
